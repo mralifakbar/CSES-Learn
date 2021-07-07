@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
     string dna;
-    char ch, chb;
-    int length = 0, i = 1;
+    char ch, chb = '\0';
+    unsigned int length = 0;
     while(cin.get(ch))
     {
         if(dna.length() == 0 || ch == chb)
