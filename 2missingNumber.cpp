@@ -12,5 +12,5 @@ int main()
         sum += inpt;
     }
     sn = n * (1 + n) / 2;
-    cout << sn - sum;
+    cout << sn - sum << endl;
 }
