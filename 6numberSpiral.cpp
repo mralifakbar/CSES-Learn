@@ -28,7 +28,7 @@ int main()
         {
             if(x % 2 == 1)
             {
-                ans = (x * x) - (y - 2);
+                ans = (x * x) - (y - 1);
             }
             else
             {
