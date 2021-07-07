@@ -8,10 +8,6 @@ int main()
     int length = 0, i = 1;
     while(cin.get(ch))
     {
-        if(ch == '\n')
-        {
-            break;
-        }
         if(dna.length() == 0 || ch == chb)
         {
             dna.push_back(ch);
@@ -26,6 +22,10 @@ int main()
             dna.push_back(ch);
         }
         chb = ch;
+        if(ch == '\n')
+        {
+            break;
+        }
     }
     cout << length;
 }
