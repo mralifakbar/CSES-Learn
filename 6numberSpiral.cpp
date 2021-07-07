@@ -17,18 +17,18 @@ int main()
         {
             if(y % 2 == 0)
             {
-                ans = pow(y, 2) - (x - 1);
+                ans = (y * y) - (x - 1);
             }
             else
             {
-                ans = pow(y - 1, 2) + x;
+                ans = ((y - 1) * (y - 1)) + x;
             }
         }
         else
         {
             if(x % 2 == 1)
             {
-                ans = pow(x, 2) - (y - 2);
+                ans = (x * x) - (y - 2);
             }
             else
             {
