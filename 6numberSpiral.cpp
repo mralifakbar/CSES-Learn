@@ -11,7 +11,7 @@ int main()
         cin >> y >> x;
         if(y == x)
         {
-            ans = ((y - 1) * 2) + 1;
+            ans = (y * y) - (y - 1);
         }
         else if(y > x)
         {
@@ -28,7 +28,7 @@ int main()
         {
             if(x % 2 == 1)
             {
-                ans = pow(x, 2) - (y - 1);
+                ans = pow(x, 2) - (y - 2);
             }
             else
             {
